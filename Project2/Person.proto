@@ -1,0 +1,8 @@
+syntax = "proto3";
+message Persion
+{
+    int32 id = 1;   // ±àºÅ´Ó1¿ªÊ¼
+    bytes name = 2;
+    string sex = 3;
+    int32 age = 4;
+}
